@@ -10,7 +10,7 @@ import { createPrompt } from 'bun-promptx'
 
 const MIN = 0
 const MAX = 999
-const ARRAY_SIZE = 50
+const ARRAY_SIZE = 100
 
 function binarySearch(userArray: number[], userNumber: number,
                       lowIndex: number, highIndex: number): number {
